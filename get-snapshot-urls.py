@@ -7,7 +7,7 @@ urlSuffix = '/full'
 firstSnapshot = '/history/2019/12/2'
 
 nextSnapshot = firstSnapshot
-#for x in range(100):
+
 while nextSnapshot:
 	url = urlBase + nextSnapshot + urlSuffix
 	print(url)
