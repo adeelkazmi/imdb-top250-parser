@@ -1,3 +1,5 @@
+# Checks arg1 to see if it's URL or a FILE and loads it accordingly
+
 import requests
 from requests.exceptions import ConnectionError
 from requests_file import FileAdapter

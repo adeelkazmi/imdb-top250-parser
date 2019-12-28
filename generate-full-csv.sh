@@ -1,5 +1,6 @@
 #!/bin/bash
-FILE=snapshot-urls.txt
+# Generates the FULL CSV using all the URLs in $FILE
+FILE=trimmed-urls.txt
 
 urls="$(cat $FILE)"
 for url in $urls

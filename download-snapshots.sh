@@ -1,4 +1,5 @@
 #!/bin/bash
+# Downloads all the URLs defined in $FILE
 FILE=../snapshot-urls.txt
 
 urls="$(cat $FILE)"

@@ -1,4 +1,5 @@
-# Created from https://bit.ly/2NyxdAG
+# Prints out the top IMDb movies from arg1
+
 from bs4 import BeautifulSoup
 import check_url
 

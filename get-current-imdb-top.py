@@ -1,4 +1,5 @@
-#https://bit.ly/2NyxdAG
+# https://bit.ly/2NyxdAG
+# Gets the latest IMDb Top Movie List
 from bs4 import BeautifulSoup
 import requests
 import re
