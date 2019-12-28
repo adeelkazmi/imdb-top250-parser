@@ -1,6 +1,5 @@
 #!/bin/bash
 FILE=../snapshot-urls.txt
-FILE=../temp
 
 urls="$(cat $FILE)"
 for url in $urls
