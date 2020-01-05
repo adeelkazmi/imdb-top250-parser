@@ -1,6 +1,14 @@
 #!/bin/bash
-# Generates the FULL CSV using all the URLs in $FILE
-FILE=trimmed-urls.txt
+# Opens arg1 and generates the FULL CSV using all the URLS in that file
+if [ "$1" = "" ]
+then
+  FILE=trimmed-urls.txt
+  echo "No input file provided, using \"$FILE\" for the URLs"
+else
+  FILE=$1
+fi
+
+[ ! -f $FILE ] && echo "ERROR: $1 is not a valid file" && exit 1
 
 urls="$(cat $FILE)"
 for url in $urls
